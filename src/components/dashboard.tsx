@@ -28,7 +28,7 @@ function Dashboard() {
                         Aplicaciones en la nube para aumentar la productividad de PYMEs, accesibles online para optimizar procesos y mejorar eficiencia.
                     </p>
                     <div className={"flex flex-row text-white font-bold space-x-1 mt-4 justify-center"}>
-                        <a href="https://dash.appnodo.com" target="_blank" className={"block px-4 py-2 bg-teal-600 rounded-lg"}>Iniciar sesión</a>
+                        <a href="https://dash.appnodo.com" target="_blank" rel="noreferrer" className={"block px-4 py-2 bg-teal-600 rounded-lg"}>Iniciar sesión</a>
                     </div>
                 </div>
             </div>
