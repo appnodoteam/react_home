@@ -6,9 +6,9 @@ function Dashboard() {
     return (
     <div
         className={
-        "basis-2/3 flex flex-col md:flex-col md:justify-center dark:bg-slate-400 p-12 bg-cover bg-center bg-no-repeat bg-server "
+        "basis-2/3 flex flex-col lg:flex-col lg:justify-center dark:bg-slate-400 p-4 lg:p-12 bg-cover bg-center bg-no-repeat bg-server "
         }>
-        <div className={"inline-block md:flex md:flex-row"}>
+        <div className={"inline-block lg:flex lg:flex-row"}>
             <div className={"basis-1 md:basis-1/3"}>
                 <CardSmall title={"Inventarios"} image={"001-inventory.png"} />
                 <CardSmall title={"Prestamistas"}  image={"prestamista.png"} />
@@ -16,7 +16,7 @@ function Dashboard() {
                 <CardSmall title={"P.O.S. Móvil"}  image={"pos-movil.png"}/>
                 <CardSmall title={"Delivery"}  image={"delivery.png"}/>
             </div>
-            <div className={"basis-1 md:basis-2/3 mx-6"}>
+            <div className={"basis-1 md:basis-2/3 lg:mx-6"}>
                 <div className={"bg-white text text-slate-600 bg-opacity-75 p-4 rounded-xl shadow-md backdrop-blur-sm"}>
                     <picture>
                         <YourSvg className={"h-8 my-6 mx-auto"} />
