@@ -4,8 +4,22 @@
 
 body {
   background-color: #0f172a;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 5rem;
 }
+
+a {
+  color: #bd7a34;
+  text-decoration: none;
+}
+
 .bg-server{
   background-image: url("../src/assets/bg-3.jpg");
   /* if is dark mode */
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
